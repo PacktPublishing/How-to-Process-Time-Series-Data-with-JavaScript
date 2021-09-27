@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>COVID 19</title>
+<meta charset="utf-8">
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="../../For%20Draft%20Review/Code%20Files/graphData.js"></script>
+<script>
+window.onload = function() {
+    readData("c19Data.csv", "#graph");
+};
+</script>
+<style>
+h1 {
+	font: 1.2em sans-serif;
+	margin: 0px;
+	text-align: center;
+	color: #676767;
+}
+div#graph {
+	color: #676767;
+}
+div.tooltip {	
+	position: absolute;	
+	text-align: center;	
+	width: auto;
+	height: auto;
+	padding: 4px;
+	font: 1em sans-serif;
+	background: lightsteelblue;
+	border: 0px;
+	border-radius: 8px;
+	pointer-events: none;
+	visibility: hidden;
+}
+</style>
+</head>
+<body>
+	<h1>Top 10 Countries with most COVID-19 Cases</h1>
+    <div id="graph"></div>
+	<div class="tooltip"></div>
+</body>
+</html>

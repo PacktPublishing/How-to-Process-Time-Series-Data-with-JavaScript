@@ -1,0 +1,56 @@
+How to Process Time Series Data with JavaScript
+
+Section One: Get started
+* Introduction: Welcome.mp4
+-- Resources: c19Data.csv, c19.html, graphData.js
+-- Link to data at Johns Hopkins: https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv
+
+* Get and inspect the data: InspectData.mp4
+-- Resources: c19Data.csv, link (repeated from Introduction)
+
+Section Two: Set up the HTML and CSS
+* Build the HTML: BuildHTML.mp4
+-- Resource: c19.html (repeat from Introduction)
+* Read the Data: ReadTheData.mp4
+-- Resource: c19Data.csv (repeat from Introduction)
+
+Section Three: Process the Data
+* Get the start and end dates: StartEndDates.mp4
+* Sort the data: SortData.mp4
+* Structure the data for graphing: PullOutCases.mp4
+* Find the maximum cases: MaxCases.mp4
+
+Section Four: Create the graph
+* Create the graph axes: CreateGraphAxes.mp4
+* Turn the data into lines on the graph: Lines.mp4
+* Color the lines on the graph: ColorLines.mp4
+* Create the tooltip: CreateTooltip.mp4
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
